@@ -1,0 +1,13 @@
+
+web_searcher_task:
+  description: >
+    To understand the user input {QUERY_TEXT} and look for the information asked in the input.
+    To first use a tool to get the a structured list of websites using the assigned tool.
+    Then read the websites from previous task and scrape the information in those websites using the assigned tool.   
+    Combine the outputs of the tool. 
+    Return a tuple of the form Tuple[str, List[str]] like (combined_outputs, [websites]). Do not give any other text. 
+  expected_output: >
+    Combine the outputs of the tool. 
+    Return a tuple of the form Tuple[str, List[str]] like (combined_outputs, [websites]). Do not give any other text. 
+  agent: web_searcher_agent    
+

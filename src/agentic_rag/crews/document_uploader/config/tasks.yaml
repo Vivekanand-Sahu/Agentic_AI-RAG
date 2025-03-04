@@ -1,0 +1,8 @@
+
+document_uploader_task:
+  description: >
+    To understand the input {PURPOSE_DECIDER_OUTPUT}.
+    If the input means 'to upload' then upload the content by passing the {DATA_PATH} and {CHROMA_PATH} to the assigned tool and return the output of the tool. 
+  expected_output: >
+    The output should be the output of the tool if the input {PURPOSE_DECIDER_OUTPUT} means to upload. 
+  agent: document_uploader_agent

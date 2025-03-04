@@ -1,0 +1,8 @@
+
+rag_retriever_task:
+  description: >
+    To understand the source {INFORMATION_RETRIEVER_OUTPUT}.
+    If the source is 'RAG' then pass the {QUERY_TEXT} and {CHROMA_PATH} in the assigned tool and return the tool output.  
+  expected_output: >
+    Give the output from the tool if source {INFORMATION_RETRIEVER_OUTPUT} is 'RAG'.
+  agent: rag_retriever_agent

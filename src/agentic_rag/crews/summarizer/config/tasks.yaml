@@ -1,0 +1,8 @@
+
+summarizer_task:
+  description: >
+    To answer the input user query {QUERY_TEXT} from the small chunks of text {CONTEXT_TEXT} and {WEB_OUTPUT} and the corresponding sources {SOURCES} and {WEB_SOURCES}.
+    The output should have a well structured as per {PROMPT_TEMPLATE} answer ensuring the answer is crisp and has the source information for reference.
+  expected_output: >
+    The output should have a well structured answer ensuring the answer is crisp and has the source information for reference.
+  agent: summarizer_agent
