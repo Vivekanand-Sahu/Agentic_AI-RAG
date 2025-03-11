@@ -80,9 +80,11 @@ This example, unmodified, will run the create a `report.md` file with the output
 
 The Agentic_RAG Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
-## Support
+### Contact:
+If there is any confusion, you can reach out to me at 
+Email: vsahu@ucsd.edu
+LinkedIn: https://www.linkedin.com/in/vivekanand-sahu/
 
-For support, questions, or feedback regarding the {{crew_name}} Crew or crewAI.
 
 
 Let's create wonders together with the power and simplicity of crewAI.
