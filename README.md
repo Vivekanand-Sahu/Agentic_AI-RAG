@@ -40,7 +40,10 @@ Ensure you have Python >=3.10 <3.13 installed on your system. This project uses 
 First, if you haven't already, install uv:
 
 ```bash
-pip install uv
+pip install crewai
+crewai create flow Agentic_RAG
+cd /content/agentic_rag
+crewai install
 ```
 
 Next, navigate to your project directory and install the dependencies:
@@ -64,7 +67,7 @@ crewai install
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
 
 ```bash
-crewai run
+crewai flow kickoff --directory /path/to/your/files --query "Tell me about Solar system"
 ```
 
 This command initializes the Agentic_RAG Crew, assembling the agents and assigning them tasks as defined in your configuration.
