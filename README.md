@@ -4,6 +4,11 @@
 
 Welcome to the Agentic-AI-RAG Crew project. This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
+## Flow
+
+<img width="1095" alt="image" src="https://github.com/user-attachments/assets/b5b5523a-73de-4332-a67e-41179f94de8f" />
+
+
 ## Installation
 
 Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
