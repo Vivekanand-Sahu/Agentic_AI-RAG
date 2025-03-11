@@ -35,49 +35,6 @@ This project features a fully functional **Tutor Chatbot**, powered by a multi-a
 
 ## Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/tutor-chatbot.git
-cd tutor-chatbot
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## Usage
-
-```python
-from chatbot import TutorChatbot
-
-# Initialize chatbot
-bot = TutorChatbot()
-response = bot.ask("Explain Quantum Mechanics in simple terms")
-print(response)
-```
-
-## Future Enhancements
-
-- Expand LLM diversity for better domain expertise
-- Improve retrieval efficiency using hybrid search techniques
-- Integrate speech-to-text and text-to-speech features
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests.
-
-## License
-
-This project is licensed under the **MIT License**.
-
----
-
-Developed by **Your Name**
-
-Vivekanand Sahu
-
-
-## Installation
-
 Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
 
 First, if you haven't already, install uv:
