@@ -92,4 +92,4 @@ LinkedIn: https://www.linkedin.com/in/vivekanand-sahu/
 
 
 
-Let's create wonders together with the power and simplicity of crewAI.
+Let's create wonders together with power and simplicity.
